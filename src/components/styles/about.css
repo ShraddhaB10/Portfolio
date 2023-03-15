@@ -1,0 +1,65 @@
+
+.about .coverpage
+{
+  background-image:url('../images/aboutcover.jpg');
+  background-repeat: no-repeat;
+    background-size: cover;  
+    filter : blur(6px);
+    background-blend-mode:color-burn;
+    background-color: rgba(127, 125, 125, 0.593);
+    z-index: -1;
+    height:500px;
+    width:100%;
+    border-style: 2px solid;
+}
+.about .center 
+{
+   top: 30%;
+}
+.body
+{
+  box-sizing: border-box;
+  margin:2%;
+  display: flex;
+  flex-direction: row;
+}
+.desc
+{
+  margin-top : 10%;
+  margin-left: 5%;
+  width: 37%;
+  padding:4%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.my-img
+{
+   border-radius: 10%;
+   width:40%;
+   height:fit-content;
+   padding:4%;
+   
+}
+#i
+{
+  border-radius: 10%;
+}
+h3{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+.desc p{
+    font-size: 20px;
+color:rgba(0, 0, 0, 0.748);
+}
+.about #learnmore
+{
+    width:fit-content;
+    border-color: currentColor ;
+}
+.desc hr{
+
+    margin: 0%;
+    width:60px;
+    border-width: 5px;
+    border: solid #fb2056 2px ;
+}

@@ -1,0 +1,43 @@
+
+.ongoingproject hr{
+
+    margin-top: 0%;
+    width:100px;
+    border-width: 5px;
+    border: solid #fb2056 2px ;
+  }
+  .ongoingproject{
+      text-align: center;
+      margin:4%;
+      font-size: 20px;
+  }
+  .ongoingproject h1{
+      margin-bottom:20px;
+      padding:10px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: rgb(35, 35, 35);
+  }
+  .image
+  {
+      height: 340px;
+      width:  100%;
+      margin-top:30px;
+      flex-direction: row;
+      padding-top: 4%;    
+  }
+  .card
+  {
+      width: 40%;
+      height: 40%;
+      margin-right: 70px;
+      
+  }
+  
+  .cards
+  {
+      margin-left: 10%;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+  
+  }

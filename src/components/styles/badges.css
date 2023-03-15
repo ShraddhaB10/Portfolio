@@ -1,0 +1,36 @@
+.image
+  {
+      height: 40%;
+      width:  40%;
+      margin-top:30px;
+      flex-direction: row;
+      padding: 5%;    
+  }
+  .bcards
+  {
+    display: flex;
+    flex-direction: row;
+    margin-left: 12%;
+  }
+.badges
+{
+    flex-direction: column;
+    text-align: center;
+}
+hr{
+
+    margin-top: 0%;
+    width:100px;
+    border-width: 5px;
+    border: solid #fb2056 2px ;
+  }
+.badge-image
+{
+    padding:40px;
+}
+.badges h1{
+    margin-bottom:20px;
+    padding:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(35, 35, 35);
+}

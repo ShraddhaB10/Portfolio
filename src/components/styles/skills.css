@@ -1,0 +1,39 @@
+.skill .coverpage
+{
+    background-image:url('../images/skill.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;  
+    z-index: 2;
+    filter:none;
+    height:550px;
+    width:100%;
+    border-style: 2px solid;
+}
+.skill .center
+{
+    top:35%;
+}
+h2{
+    text-align: center;
+    margin-top: 6%;
+}
+h4{
+    font-size: 25px;
+    margin-left:12%;
+    margin-bottom: 1%;
+}
+.contain
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    width:85%;
+   
+}
+.imgcontain{
+    margin:20px; 
+    padding:2%;
+}
+.skillcontainer hr{
+  margin-left:12%
+}

@@ -1,0 +1,11 @@
+.footer
+{
+  width:95%;
+  height: 20%;
+  color:rgb(255, 255, 255);
+  background-color: rgb(16, 16, 16);
+  
+  text-align: center;
+  padding: 2.5%;
+  font-size: 20px;
+}
